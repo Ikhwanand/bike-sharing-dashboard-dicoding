@@ -16,9 +16,10 @@ Bike-sharing systems represent a modern approach to urban transportation, provid
   - User type breakdown
 
 ## Project Structure
-- `data/`: Contains source datasets
-- [EDA.ipynb](cci:7://file:///d:/dashboard-submit-dicoding/EDA.ipynb:0:0-0:0): Exploratory Data Analysis Jupyter notebook
-- [requirements.txt](cci:7://file:///d:/dashboard-submit-dicoding/requirements.txt:0:0-0:0): Project dependencies
+- [data/](cci:1://file:///d:/dashboard-submit-dicoding/dashboard/app.py:14:0-28:30): Contains source datasets
+- `notebook-1.ipynb`: Exploratory Data Analysis Jupyter notebook
+- `requirements.txt`: Project dependencies
+- `dashboard/`: Contains the Streamlit dashboard application
 
 ## Installation
 
@@ -29,7 +30,7 @@ Bike-sharing systems represent a modern approach to urban transportation, provid
 ### Setup Steps
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/bike-sharing-dashboard.git
+git clone https://github.com/ikhwananda/bike-sharing-dashboard.git
 cd bike-sharing-dashboard
 ```
 
@@ -49,20 +50,21 @@ pip install -r requirements.txt
 streamlit run ./dashboard/app.py
 ```
 
-
 ### Key Libraries
+
 - pandas
 - numpy
 - matplotlib
 - seaborn
 - scikit-learn
+- plotly
+- streamlit
+
 ### Main Insights
+
 * Analyze bike rental patterns across different:
-** Seasons
-** Weather conditions
-** Time of day
-** User types (casual vs. registered)
-
-### Contributing
-Contributions are welcome! Please submit pull requests or open issues.
-
+  * Seasons
+  * Weather conditions
+  * Time of day
+  * User types (casual vs. registered)
+  
