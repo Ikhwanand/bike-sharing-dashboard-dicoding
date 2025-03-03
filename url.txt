@@ -1,1 +1,1 @@
-link dashboard = https://bike-sharing-dashboard-dicoding-sfnrybk7yvxdip5pxfawhc.streamlit.app/
+link dashboard = https://bike-sharing-dashboard-dicoding-y5jgu5bf8jqsxdcvjddal4.streamlit.app/
