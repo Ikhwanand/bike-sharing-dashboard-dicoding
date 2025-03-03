@@ -1,70 +1,51 @@
-# Bike Sharing Dashboard
+# Bike Sharing Dashboard 🚲
 
-## Project Description
-This project is a comprehensive data analysis of a bike-sharing system, exploring rental patterns, user behaviors, and environmental influences on bike usage.
+## Overview
+This project is a **Streamlit-based dashboard** for analyzing bike sharing patterns and trends. It provides insights into rental behaviors, user types, weather impact, and seasonal trends using interactive visualizations.
 
-## Background
-Bike-sharing systems represent a modern approach to urban transportation, providing automated bike rental services. This project aims to uncover insights from a rich dataset of bike rentals, examining how factors like weather, time, and user type impact bike usage.
-
-## Dataset Overview
-- **Hourly Data**: 17,379 entries tracking bike rentals by hour
-- **Daily Data**: 731 entries summarizing daily bike rental statistics
-- **Key Features**: 
-  - Temporal analysis
-  - Weather impact
-  - Seasonal variations
-  - User type breakdown
-
-## Project Structure
-- [data/](cci:1://file:///d:/dashboard-submit-dicoding/dashboard/app.py:14:0-28:30): Contains source datasets
-- `notebook-1.ipynb`: Exploratory Data Analysis Jupyter notebook
-- `requirements.txt`: Project dependencies
-- `dashboard/`: Contains the Streamlit dashboard application
+## Features
+- **Temporal Analysis**: Hourly, daily, and weekly rental patterns.
+- **Weather Impact**: How weather conditions affect bike rentals.
+- **User Type Analysis**: Distribution of casual vs registered users.
+- **Seasonal Analysis**: Rental trends across different seasons.
+- **Interactive Filters**: Filter data by year, season, and other parameters.
 
 ## Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/bike-sharing-dashboard.git
+   ```
 
-### Prerequisites
-- Python 3.8+
-- pip
+2. Navigate to the project directory:
+  ```bash
+  cd bike-sharing-dashboard
+  ```
 
-### Setup Steps
-1. Clone the repository
-```bash
-git clone https://github.com/ikhwananda/bike-sharing-dashboard.git
-cd bike-sharing-dashboard
-```
+3. Install the required dependencies:
+  ```bash
+  pip install -r requirements.txt
+  ```
 
-2. Create virtual environment
-```bash
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-```
+## Usage
 
-3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
+1. Run the Streamlit app:
+  ```bash
+  streamlit run dashboard/app.py
+  ```
 
-4. Run the dashboard
-```bash
-streamlit run ./dashboard/app.py
-```
+2. Open your browser and navigate to `http://localhost:8501`
 
-### Key Libraries
 
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
-- plotly
-- streamlit
+### Data
 
-### Main Insights
+The dataset used in this project is the Bike Sharing Dataset from Dicoding. It includes:
 
-* Analyze bike rental patterns across different:
-  * Seasons
-  * Weather conditions
-  * Time of day
-  * User types (casual vs. registered)
-  
+* Hourly data: hour.csv
+* Daily data: day.csv
+
+### Technologies
+
+* Python: Primary programming language.
+* Streamlit: Framework for building the dashboard.
+* Plotly: Library for creating interactive visualizations.
+* Pandas: Data manipulation and analysis.
